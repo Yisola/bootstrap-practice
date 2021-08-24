@@ -1,0 +1,236 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+        font-size: 1.5rem;
+        font-weight: 100;
+        background-color: white;
+        box-shadow: 0 3px 3px #ddd;
+        height: 4rem;
+    }
+
+.navbar-light .navbar-toggler {
+    color: #fff !important;
+    border: 0;
+}
+
+.navbar a {
+    font-weight: 500;
+    color: rgba(0,0,0,.55);
+}
+
+.navbar a:hover {
+    color: #766df4 !important;
+}
+/* navbar end */
+
+/* hero section */
+.hero {
+    margin-top: 4.5rem;
+    margin-bottom: 6rem;
+}
+
+.hero-desc {
+    margin-top: 2rem;
+}
+
+.hero h1 {
+    color: #4a4b65;
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+.hero p {
+    color: #9e9fb4;
+    margin-top: 1.5rem;
+}
+
+.hero span {
+    margin-top: 2.5rem;
+    color: #737491;
+}
+
+.fa-bandcamp {
+    color: #766df4;
+    font-size: 3rem;
+}
+
+/* hero end */
+
+/* consultation */
+.consultation {
+    background-image: url("cta-bg.png");
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+}
+
+.consultation h5 {
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+}
+
+form {
+    margin-bottom: 0.6rem;
+}
+
+.form-control {
+    border-radius: .75rem;
+}
+
+.consultation span {
+    color: #737491;
+}
+
+.fa-phone-alt {
+    color: #737491;
+}
+
+/* consulation end */
+
+/* services */
+.services {
+    margin-top: 5rem;
+}
+
+.service-container {
+    border-radius: 0.5rem;
+    box-shadow: 0 0 11px #ddd;
+    margin-bottom: 2rem;
+}
+
+.our-services h5 {
+    color: rgb(74, 75, 101);
+    font-size: 1.6rem;
+}
+
+.our-services p {
+    color: rgb(158, 159, 180);
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.8rem;
+}
+
+.service-items {
+    margin-top: 1.95rem;
+    background-image: url("bg-shape.svg");
+    background-repeat: no-repeat;
+}
+
+.fa-clone, .fa-tags, .fa-grip-vertical {
+    font-size: 2.4rem;
+    color: #766df4;
+}
+
+.service-container p {
+    color: #9e9fb4;
+}
+/* services end */
+
+/* industries start */
+.industries {
+    background-color: #f7f7fc;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+.industries p {
+    color: #9e9fb4;
+    margin-bottom: 3rem;
+}
+
+.industries button {
+    margin-top: 2rem;
+}
+
+/* industries end */
+
+/* testimonial start */
+.testimonial {
+    padding-top: 5rem;
+}
+
+.testimonial h3 {
+    font-size: 1.7rem;
+    margin-bottom: 2.9rem;
+}
+
+.testimonial img {
+    border-radius: 1.4rem;
+}
+/* testimonial end */
+
+/* companies logo */
+.companies {
+    margin-top: 4rem;
+}
+
+.companies h4 {
+    font-size: 1.9rem;
+    color: #4a4b65;
+    
+}
+
+.companies img {
+    width: 176px;
+}
+/* companies end */
+
+/* company ad start */
+.company-img__container {
+    background-color: #f4f4f6;
+    border: 0.8rem;
+}
+
+.company-form_container {
+    background-color: #37384e;
+}
+/* company ad end */
+
+/* footer */
+.footer .icon-container h5 {
+    color: #4a4b65;
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+}
+
+.fa-facebook-f, .fa-instagram, .fa-twitter, .fa-google {
+    border: 1px solid #e5e5ef;
+    padding: 0.8rem;
+    border-radius: 0.6rem;
+    color: #6c6d89;
+}
+
+/* .footer .icon-container span {
+    background-color: #f74f78;
+} */
+
+
+@media screen and (min-width: 769px) {
+    .hero-desc {
+        margin-top: 5rem;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+
+    .hero p {
+        margin-top: 1.7rem;
+    }
+
+    .our-services {
+    padding-top: 14rem;
+}
+
+.service-items {
+    padding-top: 2.4rem;
+}
+
+/* .service-container:nth-child(even) {
+    margin-top: 6rem;
+} */
+
+}
